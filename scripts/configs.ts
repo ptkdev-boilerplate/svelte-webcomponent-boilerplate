@@ -13,7 +13,6 @@ import shell from "shelljs";
 
 const path = "./configs/config.js";
 
-
 if (!fs.existsSync(path)) {
 	shell.cp("-Rf", "./configs/config.js.tpl", "./configs/config.js");
 }
