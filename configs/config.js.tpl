@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 	// Server
 	"server": {
 		"port": 3000,

@@ -1,7 +1,7 @@
 {
 	"name": "@ptkdev/svelte-webcomponent-boilerplate",
-	"description": "Svelte WebComponent Boilerplate",
-	"version": "1.0.20210318",
+	"description": "Create your HTML5 Web Component with Svelte. Made your web components with this friendly boilerplate.",
+	"version": "1.0.20210319",
 	"main": "dist/webcomponent.js",
 	"author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
 	"license": "MIT",
@@ -9,7 +9,6 @@
 	"license-translations": "CC BY 4.0",
 	"license-images": "CC BY-NC 4.0",
 	"homepage": "https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate",
-	"docs": "https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate-docs",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate.git"
@@ -71,7 +70,7 @@
 		"postcss": "^8.2.8",
 		"postcss-load-config": "^3.0.1",
 		"prettier": "^2.2.1",
-		"rollup": "^2.41.4",
+		"rollup": "^2.42.0",
 		"rollup-plugin-copy": "^3.4.0",
 		"rollup-plugin-css-only": "^3.1.0",
 		"rollup-plugin-livereload": "^2.0.0",
@@ -80,7 +79,7 @@
 		"sass": "^1.32.8",
 		"shelljs": "^0.8.4",
 		"svelte": "^3.35.0",
-		"svelte-check": "^1.2.5",
+		"svelte-check": "^1.2.6",
 		"svelte-preprocess": "^4.6.9",
 		"ts-node": "^9.1.1",
 		"tslib": "^2.1.0",

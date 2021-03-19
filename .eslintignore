@@ -1,2 +1,4 @@
 /dist
 /examples
+snowpack.config.*
+rollup.config.*

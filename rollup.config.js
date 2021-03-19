@@ -8,8 +8,8 @@ import typescript from "@rollup/plugin-typescript";
 import css from "rollup-plugin-css-only";
 import copy from "rollup-plugin-copy";
 import json from "@rollup/plugin-json";
-import config from "./configs/config";
 import { spawn } from "child_process";
+const config = require("./configs/config");
 
 const production = !config.debug;
 
@@ -50,9 +50,7 @@ export default {
 		json(),
 		copy({
 			targets: [
-				{ src: "package.json", dest: "dist" },
-				{ src: "README.md", dest: "dist" },
-				{ src: "LICENSE.md", dest: "dist" },
+				{ src: "public/**/*", dest: "dist" },
 				{ src: "assets/**/*", dest: "dist" }
 			],
 		}),
