@@ -17,6 +17,17 @@ Create your HTML5 Web Component with Svelte. Made your web components with this 
 ## 📎 Menu
 
 -   💡 [Features](#-features)
+-   🕹 [Demo](https://codepen.io/ptkdev/pen/jOyNmEQ)
+-   👔 [Screenshot](#-screenshot)
+-   🚀 [How to use](#-installation)
+-   -   🌎 [Web](#-installation-web)
+-   -   📦 [Webpack/Browserify](#-installation-npm-module---browserifywebpack)
+-   -   📖 [Wordpress](#-installation-wordpress)
+-   -   ⚛️ [React](#%EF%B8%8F-installation-react)
+-   -   🅰️ [Angular](#🅰%EF%B8%8F-installation-angular)
+-   📚 [Documentation](#-documentation)
+-   -   🧰 [Options / Attributes](#-options--attributes)
+-   -   🎨 [CSS Customization](#-css-customization)
 -   🔨 [Developer Mode](#-developer-mode)
 -   👨‍💻 [Contributing](#-contributing)
 -   🐛 [Known Bugs](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
@@ -27,6 +38,130 @@ Create your HTML5 Web Component with Svelte. Made your web components with this 
 
 -   [✔️] Easy to use
 -   [✔️] MIT License
+-   [✔️] Text animation by [Nooray Yemon](https://codepen.io/yemon) on [Codepen](https://codepen.io/yemon/pen/pWoROm)
+-   [✔️] Powered by svelte framework
+-   [✔️] Without jQuery depencence
+-   [✔️] Configurable with attributes
+-   [✔️] Customization with CSS Style
+-   [✔️] HTML5 Custom Element - Native webcomponents
+-   [✔️] Work with: Browserify / Webpack / ReactJS / Angular / Wordpress
+-   [✔️] Translations: 🇬🇧 🇮🇹 🇵🇱 (Help me ❤️)
+
+## 👔 Screenshot
+
+See [Demo here](https://codepen.io/ptkdev/pen/jOyNmEQ). Photos from @ptkdev account:
+
+[![WebComponent: SvelteWebComponentBoilerplate](https://raw.githubusercontent.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/main/.github/assets/screenshot.png)](https://raw.githubusercontent.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/main/.github/assets/screenshot.png)
+
+## 🚀 Installation (Web)
+
+1. Add html code to your page:
+
+```html
+<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+```
+
+2. Require javascript in yourpage (before `</body>`):
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@ptkdev/svelte-webcomponent-boilerplate@latest/dist/webcomponent.min.js"></script>
+```
+
+You can replace `@latest` with specific version, example `@2.0.1`.
+
+Below is available a description of `options` values.
+
+## 📦 Installation (NPM Module - Browserify/Webpack)
+
+1. Install npm module: `npm install @ptkdev/svelte-webcomponent-boilerplate --save`
+2. Add html code to your page:
+
+```html
+<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+```
+
+3. Require javascript in your app:
+
+```javascript
+require("@ptkdev/svelte-webcomponent-boilerplate");
+```
+
+or
+
+```javascript
+import "@ptkdev/svelte-webcomponent-boilerplate";
+```
+
+Below is available a description of `options` values.
+
+## 📖 Installation (Wordpress)
+
+1. Download wordpress plugin from [mirror](https://github.com/ptkdev-components/svelte-webcomponent-boilerplate/raw/master/dist/wordpress/svelte-webcomponent-boilerplate-wordpress-plugin.zip) and install it.
+1. Add code to your html widget, example: `Appearance` --> `Widget` --> insert `HTML Widget` and paste html code:
+
+```html
+<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+```
+
+You can insert this html code in posts, widget, html box or theme. Where you want see instagram photos box.
+
+## ⚛️ Installation (React)
+
+1. Install npm module with `npm install @ptkdev/svelte-webcomponent-boilerplate@latest --save`:
+2. Import module in your `src/App.js` on header:
+
+```javascript
+import "@ptkdev/svelte-webcomponent-boilerplate";
+```
+
+3. Add html code to your `App.js` template:
+
+```html
+<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+```
+
+## 🅰️ Installation (Angular)
+
+1. Install npm module with `npm install @ptkdev/svelte-webcomponent-boilerplate@latest --save`:
+2. Import module in your `app/app.modules.ts` on header:
+
+```javascript
+import "@ptkdev/svelte-webcomponent-boilerplate";
+```
+
+3. Add html code to your html component:
+
+```html
+<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+```
+
+## 🧰 Options / Attributes
+
+| Parameter | Description                                  | Values             | Default value                     | Available since |
+| --------- | -------------------------------------------- | ------------------ | --------------------------------- | --------------- |
+| header    | Setup top text                               | String             | `make`                            | v1.0.20210319   |
+| flip      | Setup middle flip text (separte with commas) | String with commas | `svelte,webcomponents,opensource` | v1.0.20210319   |
+| footer    | Setup bottom text                            | String             | `awesome!`                        | v1.0.20210319   |
+
+#### HTML Code with attributes:
+
+```html
+<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+```
+
+## 🎨 CSS Customization
+
+You can overwrite default css with selector `::part`, example:
+
+```html
+<style>
+	svelte-webcomponent-boilerplate::part(flip) {
+		border: 2px solid red;
+	}
+</style>
+```
+
+Part attribute is, generally, suffix of a class. Use chrome inspector for get the correct value of `part=""` attributes. See [MDN selector ::part docs](https://developer.mozilla.org/en-US/docs/Web/CSS/::part).
 
 ## 🔨 Developer Mode
 
