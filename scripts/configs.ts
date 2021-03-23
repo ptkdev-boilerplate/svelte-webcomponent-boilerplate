@@ -8,11 +8,13 @@
  * @license: MIT License
  *
  */
-import fs from "fs";
-import shell from "shelljs";
+import * as fs from "fs";
+import * as shell from "shelljs";
 
-const path = "./configs/config.js";
+declare const __dirname;
+
+const path = `${__dirname}/../configs/config.js`;
 
 if (!fs.existsSync(path)) {
-	shell.cp("-Rf", "./configs/config.js.tpl", "./configs/config.js");
+	shell.cp("-Rf", `${__dirname}/../configs/config.js.tpl`, `${__dirname}/../configs/config.js`);
 }

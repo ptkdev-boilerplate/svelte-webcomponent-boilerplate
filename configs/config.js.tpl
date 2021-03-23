@@ -1,11 +1,11 @@
 module.exports = {
 	// Server
 	"server": {
-		"port": 3000,
+		"port": 5000,
 	},
 
 	// Debug
-	"debug": true,
+	"debug": false,
 
 	// LOGS
 	"log": {

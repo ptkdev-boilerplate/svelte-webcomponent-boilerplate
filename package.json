@@ -1,6 +1,7 @@
 {
 	"name": "@ptkdev/svelte-webcomponent-boilerplate",
-	"description": "Create your HTML5 Web Component with Svelte. Made your web components with this friendly boilerplate.",
+	"displayName": "Svelte WebComponent Boilerplate",
+	"description": "Create your HTML5 Web Component with Svelte. Made your web components with this friendly boilerplate",
 	"version": "1.0.20210319",
 	"main": "dist/webcomponent.js",
 	"author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
@@ -23,7 +24,7 @@
 		"start": "sirv dist",
 		"dev": "ts-node scripts/configs.ts && rm -rf dist && rollup -c -w",
 		"build": "ts-node scripts/configs.ts && rm -rf dist && rollup -c",
-		"release": "npm run all-shields-generate && npm run contributors-generate && npm run build",
+		"release": "ts-node --skip-project --project scripts/tsconfig.json scripts/license.ts",
 		"docs": "git submodule update --recursive && markserv ./README.md",
 		"lint": "npm run lint-prettify && eslint . --cache --ext .ts,.js",
 		"lint-fix": "npm run lint-prettify && eslint . --cache --ext .ts,.js --fix",
@@ -44,6 +45,7 @@
 		"postinstall": "husky install"
 	},
 	"dependencies": {
+		"svelte": "^3.35.0",
 		"sirv-cli": "^1.0.11"
 	},
 	"devDependencies": {
@@ -53,6 +55,7 @@
 		"@rollup/plugin-node-resolve": "^11.2.0",
 		"@rollup/plugin-typescript": "^8.2.0",
 		"@tsconfig/svelte": "^1.0.10",
+		"@types/node": "^14.14.35",
 		"@types/shelljs": "^0.8.8",
 		"@typescript-eslint/eslint-plugin": "^4.18.0",
 		"@typescript-eslint/parser": "^4.18.0",
@@ -78,7 +81,6 @@
 		"rollup-plugin-terser": "^7.0.2",
 		"sass": "^1.32.8",
 		"shelljs": "^0.8.4",
-		"svelte": "^3.35.0",
 		"svelte-check": "^1.2.6",
 		"svelte-preprocess": "^4.6.9",
 		"ts-node": "^9.1.1",
