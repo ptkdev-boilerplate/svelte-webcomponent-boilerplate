@@ -1,0 +1,5 @@
+**/*
+!/dist/**/*
+!/svelte/**/*
+!*.md
+!package*.json

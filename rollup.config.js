@@ -10,6 +10,7 @@ import css from "rollup-plugin-css-only";
 import copy from "rollup-plugin-copy";
 import json from "@rollup/plugin-json";
 import { spawn } from "child_process";
+
 const config = require("./configs/config");
 
 const production = !config.debug;

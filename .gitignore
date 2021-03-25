@@ -128,3 +128,4 @@ config.ts
 config/*.ts
 configs/*.ts
 /dist
+/build
