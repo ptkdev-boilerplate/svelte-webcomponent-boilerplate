@@ -5,7 +5,7 @@ module.exports = {
 	},
 
 	// Debug
-	"debug": false,
+	"debug": true,
 
 	// LOGS
 	"log": {

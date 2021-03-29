@@ -1,4 +1,4 @@
-{
+module.exports = {
 	"env": {
 		"es6": true,
 		"node": true,
@@ -20,7 +20,11 @@
 			"tagNamePreference": {
 				"returns": "return"
 			}
-		}
+		},
+		"svelte3/typescript": require("typescript"),
+		"svelte3/compiler-options": {
+			customElement: true,
+		},
 	},
 	"overrides": [
 		{
@@ -92,7 +96,7 @@
 		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
 		"spaced-comment": [2, "always"],
 		"space-before-blocks": ["error", "always"],
-		"space-before-function-paren": ["error", "never"],
+		"space-before-function-paren": "off",
 		"prefer-template": "error",
 		"no-useless-concat": "error",
 		"linebreak-style": ["error", "unix"],
@@ -114,4 +118,4 @@
 		"jsdoc/require-returns-check": 1,
 		"jsdoc/require-hyphen-before-param-description": 1
 	}
-}
+};

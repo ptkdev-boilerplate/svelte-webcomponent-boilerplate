@@ -1,5 +1,7 @@
 {
 	"compilerOptions": {
+		"module": "commonjs",
+		"target": "esnext",
 		"sourceMap": true,
 		"outDir": "./dist/",
 		"lib": ["es2017", "es7", "es6", "DOM"],
@@ -8,10 +10,8 @@
 		"esModuleInterop": true,
 		"noImplicitAny": false,
 		"noImplicitThis": true,
-		"skipLibCheck": false,
 		"typeRoots": ["app/**/types", "node_modules/@types"]
 	},
-	"extends": "@tsconfig/svelte/tsconfig.json",
-	"include": ["app/**/*", "configs/**/*", "translations/**/*"],
-	"exclude": ["node_modules/*", "__sapper__/*", "dist/*", "scripts/*", "app/**/*.test.ts"]
+	"include": ["app/**/*.test.ts"],
+	"exclude": ["node_modules/*", "__sapper__/*", "dist/*"]
 }
