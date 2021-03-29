@@ -162,7 +162,7 @@ import "@ptkdev/svelte-webcomponent-boilerplate";
 2. Import module in your `src/App.vue` and add webcomponent to ignoreElements of vue config:
 
 ```javascript
-import Vue from 'vue';
+import Vue from "vue";
 import "@ptkdev/svelte-webcomponent-boilerplate";
 
 Vue.config.ignoredElements = ["svelte-webcomponent-boilerplate"];
