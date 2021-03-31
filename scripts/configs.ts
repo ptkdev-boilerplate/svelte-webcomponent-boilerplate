@@ -11,10 +11,10 @@
 import * as fs from "fs";
 import * as shell from "shelljs";
 
-declare const __dirname;
+declare const __dirname: string;
 
-const path = `${__dirname}/../configs/config.js`;
+const path = `${__dirname}/../app/configs/config.js`;
 
 if (!fs.existsSync(path)) {
-	shell.cp("-Rf", `${__dirname}/../configs/config.js.tpl`, `${__dirname}/../configs/config.js`);
+	shell.cp("-Rf", `${__dirname}/../app/configs/config.js.tpl`, path);
 }

@@ -7,10 +7,9 @@
  * @license: MIT License
  *
  */
-import webcomponent from "../functions/webcomponent";
+import m from "@webcomponent/functions/webcomponent";
 
 test("show hello world", async () => {
-	const { app } = await webcomponent({ text: "hello-world" });
-
+	const { app } = await m({ text: "hello-world" });
 	expect(app()).toBe("hello-world");
 });

@@ -1,6 +1,7 @@
 /**
- * Modules
+ * Node Module
  * =====================
+ *
  * Show hello world text
  *
  * @contributors: Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)
@@ -8,22 +9,27 @@
  * @license: MIT License
  *
  */
-import type { ModuleInterface, ModuleResponseInterface } from "../types/webcomponent.type";
+import type { ModuleInterface, ModuleResponseInterface } from "@webcomponent/types/webcomponent.type";
 
 /**
  * Hello World
  * =====================
+ *
  * Print hello-world
  *
- * @param {string} text - input string
+ * @interface [ModuleInterface ModuleResponseInterface](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/blob/main/app/webcomponent/types/module.type.ts)
  *
- * @return {Promise<ModuleResponseInterface>} fn - output string (async), run app()
-
+ * @param {string} {text} - input string
+ *
+ * @return {Promise<ModuleResponseInterface>} (async) app() function that return string
+ *
  */
-export default async ({ text }: ModuleInterface): Promise<ModuleResponseInterface> => {
+const webcomponent = async ({ text }: ModuleInterface): Promise<ModuleResponseInterface> => {
 	const app = () => text;
 
 	return {
 		app
 	};
 };
+
+export default webcomponent;

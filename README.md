@@ -2,7 +2,7 @@
 
 <!-- all-shields/header-badges:START -->
 
-[![v1.0.20210329](https://img.shields.io/badge/version-v1.0.20210329-lightgray.svg?style=flat&logo=)](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/blob/main/CHANGELOG.md) [![](https://img.shields.io/npm/v/@ptkdev-boilerplate/svelte-webcomponent-boilerplate?color=CC3534&logo=npm)](https://www.npmjs.com/package/@ptkdev-boilerplate/svelte-webcomponent-boilerplate) [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/blob/main/LICENSE.md) [![Powered By Svelte](https://img.shields.io/badge/powered%20by-svelte-FF3C02.svg?style=flat&logo=svelte)](https://svelte.dev/) [![Language: TypeScript](https://img.shields.io/badge/language-typescript-blue.svg?style=flat&logo=typescript)](https://www.typescriptlang.org/) [![ECMAScript: 2019](https://img.shields.io/badge/ES-9-F7DF1E.svg?style=flat&logo=javascript)](https://github.com/tc39/ecma262) [![Discord Server](https://discordapp.com/api/guilds/383373985666301975/embed.png)](https://discord.ptkdev.io)
+[![v1.0.20210331](https://img.shields.io/badge/version-v1.0.20210331-lightgray.svg?style=flat&logo=)](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/blob/main/CHANGELOG.md) [![](https://img.shields.io/npm/v/@ptkdev-boilerplate/svelte-webcomponent-boilerplate?color=CC3534&logo=npm)](https://www.npmjs.com/package/@ptkdev-boilerplate/svelte-webcomponent-boilerplate) [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/blob/main/LICENSE.md) [![Powered By Svelte](https://img.shields.io/badge/powered%20by-svelte-FF3C02.svg?style=flat&logo=svelte)](https://svelte.dev/) [![Language: TypeScript](https://img.shields.io/badge/language-typescript-blue.svg?style=flat&logo=typescript)](https://www.typescriptlang.org/) [![ECMAScript: 2019](https://img.shields.io/badge/ES-9-F7DF1E.svg?style=flat&logo=javascript)](https://github.com/tc39/ecma262) [![Discord Server](https://discordapp.com/api/guilds/383373985666301975/embed.png)](https://discord.ptkdev.io)
 
 <!-- all-shields/header-badges:END -->
 
@@ -70,7 +70,7 @@ See [Demo here](https://codepen.io/ptkdev/pen/jOyNmEQ).
 2. Require javascript in yourpage (before `</body>`):
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@ptkdev/svelte-webcomponent-boilerplate@latest/dist/webcomponent.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@ptkdev/svelte-webcomponent-boilerplate@latest/dist/webcomponent.js"></script>
 ```
 
 You can replace `@latest` with specific version, example `@2.0.1`.
@@ -109,7 +109,7 @@ Below is available a description of `options` values.
 <svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
 ```
 
-You can insert this html code in posts, widget, html box or theme. Where you want see instagram photos box.
+You can insert this html code in posts, widget, html box or theme.
 
 ## 🔵 Installation (React)
 
