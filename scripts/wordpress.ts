@@ -25,9 +25,14 @@ fs.writeFileSync(`${__dirname}/../dist/readme.txt`, html, "utf8");
 html = nunjucks.render(`${__dirname}/../wordpress/svelte_webcomponent_boilerplate.php`, { package: pkg });
 fs.writeFileSync(`${__dirname}/../dist/svelte_webcomponent_boilerplate.php`, html, "utf8");
 
-shell.mkdir("-p", `${__dirname}/../build/${pkg.name.replace("@ptkdev/", "")}-wordpress-plugin/`);
-shell.cp("-R", `${__dirname}/../dist/*`, `${__dirname}/../build/${pkg.name.replace("@ptkdev/", "")}-wordpress-plugin/`);
+shell.mkdir("-p", `${__dirname}/../build/${pkg.name.replace("@ptkdev/", "")}/`);
+shell.mkdir("-p", `${__dirname}/../dist/wordpress/`);
+shell.cp("-R", `${__dirname}/../dist/*`, `${__dirname}/../build/${pkg.name.replace("@ptkdev/", "")}/`);
 
-shell.exec(`zip -r -j dist/${pkg.name.replace("@ptkdev/", "")}-wordpress-plugin.zip ${__dirname}/../build/${pkg.name.replace("@ptkdev/", "")}-wordpress-plugin/`);
+shell.exec(
+	`cd build && zip -r ../dist/wordpress/${pkg.name.replace("@ptkdev/", "")}-wordpress-plugin.zip .`,
+);
 
 shell.rm("-r", `${__dirname}/../build`);
+shell.rm("-r", `${__dirname}/../dist/svelte_webcomponent_boilerplate.php`);
+shell.rm("-r", `${__dirname}/../dist/readme.txt`);

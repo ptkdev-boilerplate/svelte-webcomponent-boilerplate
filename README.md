@@ -110,7 +110,7 @@ Below is available a description of `options` values.
 
 ## 📖 Installation (Wordpress)
 
-1. Download wordpress plugin from [mirror](https://cdn.jsdelivr.net/npm/@ptkdev/svelte-webcomponent-boilerplate@latest/dist/svelte-webcomponent-boilerplate-wordpress-plugin.zip) and install it.
+1. Download wordpress plugin from [mirror](https://cdn.jsdelivr.net/npm/@ptkdev/svelte-webcomponent-boilerplate@latest/dist/wordpress/svelte-webcomponent-boilerplate-wordpress-plugin.zip) and install it.
 1. Add code to your html widget, example: `Appearance` --> `Widget` --> insert `HTML Widget` and paste html code:
 
 ```html
