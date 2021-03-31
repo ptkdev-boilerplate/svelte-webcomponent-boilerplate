@@ -38,19 +38,28 @@ Create your HTML5 Web Component with Svelte. Made your web components with this 
 -   👨‍💻 [Contributing](#-contributing)
 -   🐛 [Known Bugs](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 -   🍻 Community:
-    -   <img src="https://raw.githubusercontent.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/main/.github/assets/social_discord.png" height="18px"> [Discord](http://discord.ptkdev.io) ([🇬🇧 English Channel](https://discord.gg/YkMG26f) | [🇮🇹 Italian Channel](https://discord.gg/HFtdBAJ) | [🇵🇱 Polish Channel](https://discord.gg/TV5EXFd))
+    -   <img src="https://raw.githubusercontent.com/ptkdev-boilerplate/node-cli-boilerplate/main/.github/assets/social_discord.png" height="18px"> [Discord](http://discord.ptkdev.io) ([🇬🇧 English Channel](https://discord.gg/jqUSGPKdmA) | [🇮🇹 Italian Channel](https://discord.gg/SJFcbvG6RU) | [🇵🇱 Polish Channel](https://discord.gg/25vg4VFhb7))
 
 ## 💡 Features
 
 -   [✔️] Easy to use
 -   [✔️] MIT License
 -   [✔️] Text animation by [Nooray Yemon](https://codepen.io/yemon) on [Codepen](https://codepen.io/yemon/pen/pWoROm)
+-   [✔️] Friendly boilerplate + Github templates
 -   [✔️] Powered by svelte framework
 -   [✔️] Without jQuery depencence
 -   [✔️] Configurable with attributes
 -   [✔️] Customization with CSS Style
--   [✔️] HTML5 Custom Element - Native webcomponents
+-   [✔️] HTML5 Custom Elements - Native webcomponents
 -   [✔️] Work with: Browserify / Webpack / ReactJS / Svelte / Angular / Vue / Wordpress
+-   [✔️] Typescript + TSPaths preconfigured
+-   [✔️] Userfriendly folders tree
+-   [✔️] Prettiers and ESLint preconfigured
+-   [✔️] all-contributors-cli and all-shields-cli preconfigured
+-   [✔️] JEST Test preconfigured
+-   [✔️] Full async code
+-   [✔️] i18n translations
+-   [✔️] Github and Vscode dotfiles preconfigured
 -   [✔️] Translations: 🇬🇧 🇮🇹 🇵🇱 (Help me ❤️)
 
 ## 👔 Screenshot
