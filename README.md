@@ -58,9 +58,8 @@ Create your HTML5 Web Component with Svelte. Made your web components with this 
 -   [✔️] all-contributors-cli and all-shields-cli preconfigured
 -   [✔️] JEST Test preconfigured
 -   [✔️] Full async code
--   [✔️] i18n translations
 -   [✔️] Github and Vscode dotfiles preconfigured
--   [✔️] Translations: 🇬🇧 🇮🇹 🇵🇱 (Help me ❤️)
+-   [✔️] Translations i18n: 🇬🇧 🇮🇹 🇵🇱 (Help me ❤️)
 
 ## 👔 Screenshot
 
