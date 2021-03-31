@@ -4,6 +4,9 @@
 	"description": "Create your HTML5 Web Component with Svelte. Made your web components with this friendly boilerplate",
 	"version": "1.0.20210331",
 	"main": "dist/webcomponent.js",
+	"publishConfig": {
+		"access": "public"
+	},
 	"author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
 	"license": "MIT",
 	"license-docs": "CC BY 4.0",
