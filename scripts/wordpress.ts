@@ -28,8 +28,6 @@ fs.writeFileSync(`${__dirname}/../dist/svelte_webcomponent_boilerplate.php`, htm
 shell.mkdir("-p", `${__dirname}/../build/${pkg.name.replace("@ptkdev/", "")}-wordpress-plugin/`);
 shell.cp("-R", `${__dirname}/../dist/*`, `${__dirname}/../build/${pkg.name.replace("@ptkdev/", "")}-wordpress-plugin/`);
 
-shell.exec(
-	`zip -r -j dist/${pkg.name.replace("@ptkdev/", "")}-wordpress-plugin.zip ${__dirname}/../build/${pkg.name.replace("@ptkdev/", "")}-wordpress-plugin/`,
-);
+shell.exec(`zip -r -j dist/${pkg.name.replace("@ptkdev/", "")}-wordpress-plugin.zip ${__dirname}/../build/${pkg.name.replace("@ptkdev/", "")}-wordpress-plugin/`);
 
 shell.rm("-r", `${__dirname}/../build`);
