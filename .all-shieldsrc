@@ -18,12 +18,12 @@
 					"platform": "shields"
 				},
 				{
-					"url": "https://www.npmjs.com/package/@ptkdev-boilerplate/svelte-webcomponent-boilerplate",
+					"url": "https://www.npmjs.com/package/@ptkdev/svelte-webcomponent-boilerplate",
 					"color": "#CC3534",
 					"label": "npm",
 					"logo": "npm",
 					"style": "flat",
-					"custom": "/npm/v/@ptkdev-boilerplate/svelte-webcomponent-boilerplate?color=CC3534&logo=npm",
+					"custom": "/npm/v/@ptkdev/svelte-webcomponent-boilerplate?color=CC3534&logo=npm",
 					"platform": "shields"
 				},
 				{
