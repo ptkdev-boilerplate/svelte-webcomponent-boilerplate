@@ -1,4 +1,4 @@
-# 🚀 svelte-webcomponent-boilerplate
+# 🏗 svelte-webcomponent-boilerplate
 
 <!-- all-shields/header-badges:START -->
 
