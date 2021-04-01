@@ -9,7 +9,7 @@
  * @license: MIT License
  *
  */
-import type { ModuleInterface, ModuleResponseInterface } from "@webcomponent/types/webcomponent.type";
+import type { ModuleInterface, ModuleResponseInterface } from "@app/types/webcomponent.type";
 
 /**
  * Hello World

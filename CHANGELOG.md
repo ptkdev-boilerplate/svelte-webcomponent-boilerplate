@@ -1,4 +1,4 @@
-# v1.0.20210401 (March 31, 2021)
+# v1.0.20210402 (April 02, 2021)
 
 -   Fix: Wordpress plugin zip
 

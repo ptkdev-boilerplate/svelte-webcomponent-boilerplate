@@ -15,7 +15,6 @@
 		"allowJs": true,
 		"types": ["svelte", "jest"],
 		"paths": {
-			"@webcomponent/*": ["./app/webcomponent/*"],
 			"@translations/*": ["./app/translations/*"],
 			"@configs/*": ["./app/configs/*"],
 			"@app/*": ["./app/*"]

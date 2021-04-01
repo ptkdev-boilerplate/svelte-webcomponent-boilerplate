@@ -8,6 +8,6 @@
  * @license: MIT License
  *
  */
-import app from "../webcomponent/html/webcomponent.svelte";
+import app from "@app/html/webcomponent.svelte";
 
 export default app;

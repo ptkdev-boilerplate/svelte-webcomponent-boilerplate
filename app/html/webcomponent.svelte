@@ -10,7 +10,7 @@
 	 * @license: MIT License
 	 *
 	 */
-	import webcomponent from "@webcomponent/functions/webcomponent";
+	import webcomponent from "@app/functions/webcomponent";
 
 	export let header; // headerText || $$props["header-text"] if you use dash separator
 	export let flip;

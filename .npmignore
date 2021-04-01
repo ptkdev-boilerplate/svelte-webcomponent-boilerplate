@@ -1,5 +1,5 @@
 **/*
 !/dist/**/*
-!/svelte/**/*
+!/extra/**/*
 !*.md
 !package*.json

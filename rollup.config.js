@@ -11,9 +11,12 @@ import tsPlugin from "rollup-plugin-typescript2";
 import css from "rollup-plugin-css-only";
 import copy from "rollup-plugin-copy";
 import json from "@rollup/plugin-json";
+import alias from "@rollup/plugin-alias";
+import path from "path";
 import { spawn } from "child_process";
 
 const config = require("./app/configs/config");
+const tsconfig = require("./tsconfig.json");
 
 const production = !config.debug;
 
@@ -40,6 +43,21 @@ function serve() {
 			process.on("exit", toExit);
 		},
 	};
+}
+
+function tsalias() {
+	const paths = [];
+
+	for (const value in tsconfig.compilerOptions.paths) {
+		paths.push(
+			{
+				replacement: path.resolve(path.resolve(__dirname), tsconfig.compilerOptions.paths[value][0].replace("./", "").replace("/*", "")),
+				find: value.replace("./", "").replace("/*", ""),
+			}
+		);
+	}
+
+	return paths;
 }
 
 export default {
@@ -81,6 +99,9 @@ export default {
 			browser: true,
 			dedupe: ["svelte"],
 		}),
+		alias({
+			entries: tsalias()
+		}),
 		commonjs(),
 		typescript({
 			sourceMap: true,
@@ -95,7 +116,7 @@ export default {
 
 		// Watch the `public` directory and refresh the
 		// browser on changes when not in production
-		!production && livereload("dist"),
+		!production && livereload({ watch: "dist", delay: 200 }),
 
 		// If we're building for production (npm run build
 		// instead of npm run dev), minify
