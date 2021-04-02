@@ -1,5 +1,7 @@
 **/*
+|.github
 !/dist/**/*
 !/extra/**/*
+!*.d.ts
 !*.md
-!package*.json
+!*.json

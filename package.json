@@ -25,9 +25,9 @@
 	},
 	"scripts": {
 		"start": "sirv dist",
-		"dev": "ts-node scripts/configs.ts && ts-node scripts/debug.ts --enable && rm -rf dist && rollup -c -w",
-		"build": "ts-node scripts/configs.ts && rm -rf dist && rollup -c",
-		"release": "ts-node scripts/configs.ts && ts-node scripts/debug.ts --disable && npm run build && ts-node --skip-project scripts/license.ts && ts-node scripts/wordpress.ts",
+		"dev": "ts-node scripts/configs.ts && ts-node scripts/debug.ts --enable && ts-node scripts/rmdist.ts && rollup -c -w",
+		"build": "ts-node scripts/configs.ts && ts-node scripts/rmdist.ts && rollup -c",
+		"release": "ts-node scripts/configs.ts && ts-node scripts/debug.ts --disable && npm run build && ts-node --skip-project scripts/license.ts && ttsc --declaration --emitDeclarationOnly && ts-node scripts/wordpress.ts",
 		"test": "jest app",
 		"docs": "git submodule update --recursive && markserv ./README.md",
 		"lint": "npm run lint-prettify && eslint . --cache --ext .ts,.js",
