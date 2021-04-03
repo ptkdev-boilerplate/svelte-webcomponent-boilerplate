@@ -1,0 +1,13 @@
+{
+	"package_name": "svelte-webcomponent-boilerplate",
+	"package_org": "@ptkdev",
+	"display_name": "Svelte WebComponent Boilerplate",
+	"description": "Create your HTML5 Web Component with Svelte. Made your web components with this friendly boilerplate",
+	"author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
+	"author_markdown": "[Patryk Rzucidło](https://ptk.dev) ([@PTKDev](https://twitter.com/ptkdev)) <[support@ptkdev.io](mailto:support@ptkdev.io)>",
+	"author_url": "https://ptk.dev",
+	"github_nickname": "ptkdev",
+	"github_repository_url": "github.com/ptkdev-boilerplate",
+	"github_full_repository_url": "github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate",
+	"email": "support@ptkdev.io"
+}

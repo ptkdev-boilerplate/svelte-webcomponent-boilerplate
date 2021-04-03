@@ -5,7 +5,7 @@ Plugin URI:  {{package.homepage}}
 Description: {{package.description}}
 Version:     {{package.version}}
 Author:      {{package.author}}
-Author URI:  https://ptk.dev
+Author URI:  {{package.authorUrl}}
 License:     MIT
 License URI: https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/main/LICENSE.md
 */

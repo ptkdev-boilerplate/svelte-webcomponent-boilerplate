@@ -8,6 +8,7 @@
 		"access": "public"
 	},
 	"author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
+	"authorUrl": "https://ptk.dev",
 	"license": "MIT",
 	"license-docs": "CC BY 4.0",
 	"license-translations": "CC BY 4.0",
@@ -24,6 +25,8 @@
 		"node": ">=14.0.0"
 	},
 	"scripts": {
+		"init": "npm install && husky install",
+		"setup": "ts-node --skip-project scripts/setup.ts",
 		"start": "sirv dist",
 		"dev": "ts-node scripts/configs.ts && ts-node scripts/debug.ts --enable && ts-node scripts/rmdist.ts && rollup -c -w",
 		"build": "ts-node scripts/configs.ts && ts-node scripts/rmdist.ts && rollup -c",
@@ -77,6 +80,7 @@
 		"postcss": "^8.2.9",
 		"postcss-load-config": "^3.0.1",
 		"prettier": "^2.2.1",
+		"replace-in-file": "^6.2.0",
 		"rollup": "^2.44.0",
 		"rollup-plugin-copy": "^3.4.0",
 		"rollup-plugin-css-only": "^3.1.0",
