@@ -214,7 +214,7 @@ Part attribute is, generally, suffix of a class. Use chrome inspector for get th
 
 ## 🔨 Developer Mode
 
-#### ⚡️ Run Project
+#### 🏁 Run Project
 
 1. Clone this repository or download [nightly](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/archive/nightly.zip), [beta](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/archive/beta.zip) or [stable](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/archive/main.zip).
 2. Run `npm run init`
