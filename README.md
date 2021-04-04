@@ -65,7 +65,7 @@ Create your HTML5 Web Component with Svelte. Made your web components with this 
 
 See [Demo here](https://codepen.io/ptkdev/pen/jOyNmEQ).
 
-[![WebComponent: SvelteWebComponentBoilerplate](https://raw.githubusercontent.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/main/.github/assets/screenshot.png)](https://raw.githubusercontent.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/main/.github/assets/screenshot.png)
+[![WebComponent: Svelte WebComponent Boilerplate](https://raw.githubusercontent.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/main/.github/assets/screenshot.png)](https://raw.githubusercontent.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/main/.github/assets/screenshot.png)
 
 ## 🚀 Installation (Web)
 

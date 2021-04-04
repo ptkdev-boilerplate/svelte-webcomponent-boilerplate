@@ -12,8 +12,10 @@
  *
  */
 import * as shell from "shelljs";
+import { pkgConf } from "yargs";
 const replace = require("replace-in-file");
 const setup = require("../setup.json");
+const pkg = require("../package.json");
 
 (async () => {
 	try {
@@ -231,6 +233,17 @@ const setup = require("../setup.json");
 			ignore: ["node_modules/**/*", "setup.json", "package-lock.json", "scripts/setup.ts", ".all-contributorsrc"],
 			from: /support@ptkdev.io/g,
 			to: setup.email,
+		});
+	} catch (error) {
+		console.error("Error occurred:", error);
+	}
+
+	try {
+		await replace({
+			files: ["package.json"],
+			ignore: ["node_modules/**/*", "setup.json", "package-lock.json", "scripts/setup.ts"],
+			from: pkg.version,
+			to: "1.0.0",
 		});
 	} catch (error) {
 		console.error("Error occurred:", error);
