@@ -11,6 +11,7 @@
  * @license: MIT License
  *
  */
+import * as shell from "shelljs";
 const replace = require("replace-in-file");
 const setup = require("../setup.json");
 
@@ -140,8 +141,41 @@ const setup = require("../setup.json");
 		await replace({
 			files: ["wordpress/**/*"],
 			ignore: ["node_modules/**/*", "setup.json", "package-lock.json", "scripts/setup.ts", ".all-contributorsrc"],
-			from: /https:\/\/ptk.dev/g,
-			to: setup.author_url,
+			from: /ptkdev/g,
+			to: setup.github_nickname,
+		});
+	} catch (error) {
+		console.error("Error occurred:", error);
+	}
+
+	try {
+		await replace({
+			files: ["wordpress/**/*"],
+			ignore: ["node_modules/**/*", "setup.json", "package-lock.json", "scripts/setup.ts", ".all-contributorsrc"],
+			from: /svelte_webcomponent_boilerplate/g,
+			to: setup.package_name.replace(/-/g, "_"),
+		});
+	} catch (error) {
+		console.error("Error occurred:", error);
+	}
+
+	try {
+		await replace({
+			files: ["scripts/wordpress.ts"],
+			ignore: ["node_modules/**/*", "setup.json", "package-lock.json", "scripts/setup.ts", ".all-contributorsrc"],
+			from: /svelte_webcomponent_boilerplate/g,
+			to: setup.package_name.replace(/-/g, "_"),
+		});
+	} catch (error) {
+		console.error("Error occurred:", error);
+	}
+
+	try {
+		await replace({
+			files: ["scripts/wordpress.ts"],
+			ignore: ["node_modules/**/*", "setup.json", "package-lock.json", "scripts/setup.ts", ".all-contributorsrc"],
+			from: /@ptkdev/g,
+			to: setup.package_org,
 		});
 	} catch (error) {
 		console.error("Error occurred:", error);
@@ -202,4 +236,5 @@ const setup = require("../setup.json");
 		console.error("Error occurred:", error);
 	}
 
+	await shell.mv("-f", "wordpress/svelte_webcomponent_boilerplate.php", `wordpress/${setup.package_name.replace(/-/g, "_")}.php`);
 })();

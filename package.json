@@ -26,7 +26,7 @@
 	},
 	"scripts": {
 		"init": "npm install && husky install",
-		"setup": "ts-node --skip-project scripts/setup.ts",
+		"setup": "ts-node --skip-project scripts/setup.ts && npm run pre-commit",
 		"start": "sirv dist",
 		"dev": "ts-node scripts/configs.ts && ts-node scripts/debug.ts --enable && ts-node scripts/rmdist.ts && rollup -c -w",
 		"build": "ts-node scripts/configs.ts && ts-node scripts/rmdist.ts && rollup -c",

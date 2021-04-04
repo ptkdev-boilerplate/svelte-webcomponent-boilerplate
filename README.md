@@ -212,7 +212,7 @@ Part attribute is, generally, suffix of a class. Use chrome inspector for get th
 
 ## 🔨 Developer Mode
 
-**IMPORTANT**: If you want replace all strings of package name, author, urls, etc... in markdown file, source files and others of this project you need edit `setup.json` with correct values and run `npm run setup`.
+If you want replace all strings of package name, author, urls, etc... in markdown file, source files and others of this project you need edit `setup.json` with correct values and run `npm run setup`.
 
 1. Clone this repository or download [nightly](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/archive/nightly.zip), [beta](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/archive/beta.zip) or [stable](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/archive/main.zip).
 2. Run `npm run init`
@@ -280,7 +280,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 ## 💫 License
 
 -   Code and Contributions have **MIT License**
--   Images and logos have **CC BY-NC 4.0 License** ([Freepik](https://it.freepik.com/) Premium License)
+-   Images and logos have **CC BY-NC 4.0 License**
 -   Documentations and Translations have **CC BY 4.0 License**
 
 ###### Copyleft (c) 2021 [Patryk Rzucidło](https://ptk.dev) ([@PTKDev](https://twitter.com/ptkdev)) <[support@ptkdev.io](mailto:support@ptkdev.io)>
