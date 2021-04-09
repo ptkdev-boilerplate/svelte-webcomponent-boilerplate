@@ -118,22 +118,22 @@
 					"platform": "shields"
 				},
 				{
-					"url": "",
+					"url": "https://ptk.dev/img/icons/menu/bitcoin_wallet.png",
 					"color": "#E38B29",
 					"label": "BTC",
 					"message": "35jQmZCy4nsxoMM3QPFrnZePDVhdKaHMRH",
 					"title": "Donate Bitcoin",
-					"style": "for-the-badge",
+					"style": "flat-square",
 					"logo": "bitcoin",
 					"platform": "shields"
 				},
 				{
-					"url": "",
+					"url": "https://ptk.dev/img/icons/menu/ethereum_wallet.png",
 					"color": "#4E8EE9",
 					"label": "ETH",
 					"message": "0x8b8171661bEb032828e82baBb0B5B98Ba8fBEBFc",
 					"title": "Donate Ethereum",
-					"style": "for-the-badge",
+					"style": "flat-square",
 					"logo": "ethereum",
 					"platform": "shields"
 				}
