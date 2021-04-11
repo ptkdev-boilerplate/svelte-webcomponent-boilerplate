@@ -17,7 +17,7 @@ about: Suggest an idea or new feature for this project (low priority)
 PAID SUPPORT :
 If you need paid support with hight priority donate correct tier on:
 - https://github.com/sponsors/ptkdev
-- https://www.patreon.com/ptkdev
+- https://www.patreon.com/join/ptkdev
 
 Please send me an email (support@ptkdev.io) before donation, i try provide correct price quotation for your bug or new feature.
 -->
