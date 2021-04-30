@@ -12,12 +12,14 @@
 	 */
 	import webcomponent from "@app/functions/webcomponent";
 
-	export let header; // headerText || $$props["header-text"] if you use dash separator
-	export let flip;
-	export let footer;
+	export let header: string; // headerText || $$props["header-text"] if you use dash separator
+	export let flip: string;
+	export let footer: string;
+
+	let text: "hello-world";
 
 	async function getHelloWorld() {
-		const { app } = await webcomponent({ text: "hello-world" });
+		const { app } = await webcomponent({ text });
 
 		return app();
 	}
