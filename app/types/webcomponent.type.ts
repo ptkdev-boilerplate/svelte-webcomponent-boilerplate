@@ -23,7 +23,7 @@ export interface ModuleInterface {
 	 *
 	 * @interface [ModuleInterface](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/blob/main/app/webcomponent/types/module.type.ts)
 	 *
-	 * @param { String } text - input text
+	 * @param {string} text - input text
 	 *
 	 */
 	text: string

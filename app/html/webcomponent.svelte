@@ -16,10 +16,8 @@
 	export let flip: string;
 	export let footer: string;
 
-	let text: "hello-world";
-
 	async function getHelloWorld() {
-		const { app } = await webcomponent({ text });
+		const { app } = await webcomponent({ text: "hello-world" });
 
 		return app();
 	}
