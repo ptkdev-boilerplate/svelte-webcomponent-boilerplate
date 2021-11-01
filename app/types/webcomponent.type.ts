@@ -26,7 +26,7 @@ export interface ModuleInterface {
 	 * @param {string} text - input text
 	 *
 	 */
-	text: string
+	text: string;
 }
 
 /**
@@ -40,10 +40,10 @@ export interface ModuleResponseInterface {
 	 * =====================
 	 * Get text
 	 *
-	  * @interface [ModuleResponseInterface](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/blob/main/app/webcomponent/types/module.type.ts)
+	 * @interface [ModuleResponseInterface](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/blob/main/app/webcomponent/types/module.type.ts)
 	 *
 	 * @return {fn} string - run app() for output text
 	 *
 	 */
-	app(): string
+	app(): string;
 }

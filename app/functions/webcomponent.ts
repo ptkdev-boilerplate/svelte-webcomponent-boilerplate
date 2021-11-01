@@ -28,7 +28,7 @@ const webcomponent = async ({ text }: ModuleInterface): Promise<ModuleResponseIn
 	const app = () => text;
 
 	return {
-		app
+		app,
 	};
 };
 

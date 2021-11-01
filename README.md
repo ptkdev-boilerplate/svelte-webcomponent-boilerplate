@@ -78,7 +78,11 @@ See [Demo here](https://codepen.io/ptkdev/pen/jOyNmEQ).
 1. Add html code to your page:
 
 ```html
-<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+<svelte-webcomponent-boilerplate
+	header="make"
+	flip="svelte,webcomponents,opensource"
+	footer="awesome!"
+></svelte-webcomponent-boilerplate>
 ```
 
 2. Require javascript in yourpage (before `</body>`):
@@ -97,7 +101,11 @@ Below is available a description of `options` values.
 2. Add html code to your page:
 
 ```html
-<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+<svelte-webcomponent-boilerplate
+	header="make"
+	flip="svelte,webcomponents,opensource"
+	footer="awesome!"
+></svelte-webcomponent-boilerplate>
 ```
 
 3. Require javascript in your app:
@@ -120,7 +128,11 @@ Below is available a description of `options` values.
 1. Add code to your html widget, example: `Appearance` --> `Widget` --> insert `HTML Widget` and paste html code:
 
 ```html
-<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+<svelte-webcomponent-boilerplate
+	header="make"
+	flip="svelte,webcomponents,opensource"
+	footer="awesome!"
+></svelte-webcomponent-boilerplate>
 ```
 
 You can insert this html code in posts, widget, html box or theme.
@@ -137,7 +149,11 @@ import "@ptkdev/svelte-webcomponent-boilerplate";
 3. Add html code to your `App.js` template:
 
 ```html
-<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+<svelte-webcomponent-boilerplate
+	header="make"
+	flip="svelte,webcomponents,opensource"
+	footer="awesome!"
+></svelte-webcomponent-boilerplate>
 ```
 
 ## 🔴 Installation (Angular)
@@ -152,7 +168,11 @@ import "@ptkdev/svelte-webcomponent-boilerplate";
 3. Add html code to your html component:
 
 ```html
-<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+<svelte-webcomponent-boilerplate
+	header="make"
+	flip="svelte,webcomponents,opensource"
+	footer="awesome!"
+></svelte-webcomponent-boilerplate>
 ```
 
 ## 🟠 Installation (Svelte)
@@ -167,7 +187,11 @@ import "@ptkdev/svelte-webcomponent-boilerplate";
 3. Add html code to your html component:
 
 ```html
-<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+<svelte-webcomponent-boilerplate
+	header="make"
+	flip="svelte,webcomponents,opensource"
+	footer="awesome!"
+></svelte-webcomponent-boilerplate>
 ```
 
 ## 🟢 Installation (Vue)
@@ -185,7 +209,11 @@ Vue.config.ignoredElements = ["svelte-webcomponent-boilerplate"];
 3. Add html code to your html component:
 
 ```html
-<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+<svelte-webcomponent-boilerplate
+	header="make"
+	flip="svelte,webcomponents,opensource"
+	footer="awesome!"
+></svelte-webcomponent-boilerplate>
 ```
 
 ## 🧰 Options / Attributes
@@ -199,7 +227,11 @@ Vue.config.ignoredElements = ["svelte-webcomponent-boilerplate"];
 #### HTML Code with attributes:
 
 ```html
-<svelte-webcomponent-boilerplate header="make" flip="svelte,webcomponents,opensource" footer="awesome!"></svelte-webcomponent-boilerplate>
+<svelte-webcomponent-boilerplate
+	header="make"
+	flip="svelte,webcomponents,opensource"
+	footer="awesome!"
+></svelte-webcomponent-boilerplate>
 ```
 
 ## 🎨 CSS Customization

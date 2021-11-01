@@ -249,5 +249,9 @@ const pkg = require("../package.json");
 		console.error("Error occurred:", error);
 	}
 
-	await shell.mv("-f", "wordpress/svelte_webcomponent_boilerplate.php", `wordpress/${setup.package_name.replace(/-/g, "_")}.php`);
+	await shell.mv(
+		"-f",
+		"wordpress/svelte_webcomponent_boilerplate.php",
+		`wordpress/${setup.package_name.replace(/-/g, "_")}.php`,
+	);
 })();

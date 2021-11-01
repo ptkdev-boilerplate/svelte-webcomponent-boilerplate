@@ -10,9 +10,12 @@
 		"noImplicitAny": false,
 		"noImplicitThis": true,
 		"declaration": false,
-		"strict": false,
-		"skipLibCheck": true,
 		"allowJs": true,
+		"strict": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
 		"types": ["svelte", "jest"],
 		"paths": {
 			"@translations/*": ["./app/translations/*"],
@@ -20,7 +23,10 @@
 			"@app/*": ["./app/*"]
 		},
 		"typeRoots": ["app/**/types", "node_modules/@types"],
-		"plugins": [{ "transform": "typescript-transform-paths" }, { "transform": "typescript-transform-paths", "afterDeclarations": true }]
+		"plugins": [
+			{ "transform": "typescript-transform-paths" },
+			{ "transform": "typescript-transform-paths", "afterDeclarations": true }
+		]
 	},
 	"extends": "@tsconfig/svelte/tsconfig.json",
 	"include": ["app/**/*"],
