@@ -2,7 +2,7 @@
 	"name": "@ptkdev/svelte-webcomponent-boilerplate",
 	"displayName": "Svelte WebComponent Boilerplate",
 	"description": "Create your HTML5 Web Component with Svelte. Made your web components with this user friendly boilerplate",
-	"version": "2.0.0-beta.1",
+	"version": "2.0.0",
 	"main": "dist/webcomponent.js",
 	"publishConfig": {
 		"access": "public"
