@@ -9,7 +9,7 @@
  * @license: MIT License
  *
  */
-import type { ModuleInterface, ModuleResponseInterface } from "@app/types/webcomponent.type";
+import type { ModuleInterface, ModuleResponseInterface } from "@app/types/webcomponent.interfaces";
 
 /**
  * Hello World
@@ -17,7 +17,7 @@ import type { ModuleInterface, ModuleResponseInterface } from "@app/types/webcom
  *
  * Print hello-world
  *
- * @interface [ModuleInterface ModuleResponseInterface](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/blob/main/app/webcomponent/types/module.type.ts)
+ * @interface [ModuleInterface ModuleResponseInterface](https://github.com/ptkdev-boilerplate/svelte-webcomponent-boilerplate/blob/main/app/webcomponent/types/module.interfaces.ts)
  *
  * @param {string} {text} - input string
  *

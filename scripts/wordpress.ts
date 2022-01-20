@@ -13,7 +13,7 @@ import * as shell from "shelljs";
 import nunjucks from "nunjucks";
 const pkg = require("../package.json");
 
-declare const __dirname;
+declare const __dirname: string;
 
 nunjucks.configure({
 	autoescape: false,

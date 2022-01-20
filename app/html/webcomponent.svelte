@@ -11,13 +11,14 @@
 	 *
 	 */
 	import webcomponent from "@app/functions/webcomponent";
+	import { translate } from "@app/translations/translate";
 
 	export let header: string; // headerText || $$props["header-text"] if you use dash separator
 	export let flip: string;
 	export let footer: string;
 
 	async function getHelloWorld() {
-		const { app } = await webcomponent({ text: "hello-world" });
+		const { app } = await webcomponent({ text: translate("hello", { name: "boilerplate" }) });
 
 		return app();
 	}

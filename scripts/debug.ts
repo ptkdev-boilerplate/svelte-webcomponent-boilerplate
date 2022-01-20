@@ -18,8 +18,8 @@ const path = `${__dirname}/../app/configs/config.js`;
 
 if (fs.existsSync(path)) {
 	if (argv.enable) {
-		shell.sed("-i", '"debug": false', '"debug": true', path);
+		shell.sed("-i", 'debug: "disabled"', 'debug: "enabled"', path);
 	} else {
-		shell.sed("-i", '"debug": true', '"debug": false', path);
+		shell.sed("-i", 'debug: "enabled"', 'debug: "disabled"', path);
 	}
 }

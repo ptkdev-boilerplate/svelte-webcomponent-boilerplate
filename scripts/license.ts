@@ -11,7 +11,7 @@
 import * as fs from "fs";
 const pkg = require("../package.json");
 
-declare const __dirname;
+declare const __dirname: string;
 
 const license = `// WebComponent: ${pkg.displayName} v${pkg.version}
 // Author: ${pkg.author}

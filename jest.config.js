@@ -1,10 +1,9 @@
 module.exports = {
 	preset: "ts-jest",
-	testEnvironment: "jsdom",
+	testEnvironment: "node",
 	globals: {
 		"ts-jest": {
-			"tsconfig": "tsconfig.json",
-			"compiler": "ttypescript"
-		}
+			tsconfig: "tsconfig.json",
+		},
 	},
 };
