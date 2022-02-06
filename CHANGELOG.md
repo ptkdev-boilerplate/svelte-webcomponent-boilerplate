@@ -1,6 +1,6 @@
 # v2.0.0 (January 20, 2022)
 
--   Refactor: code quality, scripts and interfaces
+-   Refactor: code quality, scripts, and interfaces
 -   Security: updated packages
 -   Features: CI/CD
 
