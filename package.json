@@ -2,7 +2,7 @@
 	"name": "@ptkdev/svelte-webcomponent-boilerplate",
 	"displayName": "Svelte WebComponent Boilerplate",
 	"description": "Create your HTML5 Web Component with Svelte. Made your web components with this user friendly boilerplate",
-	"version": "2.0.2-nightly.45",
+	"version": "2.0.2-nightly.46",
 	"main": "dist/webcomponent.js",
 	"publishConfig": {
 		"access": "public"
@@ -92,11 +92,11 @@
 		"rollup-plugin-svelte": "^7.1.0",
 		"rollup-plugin-terser": "^7.0.2",
 		"rollup-plugin-ts-paths": "^1.0.5",
-		"sass": "^1.49.11",
+		"sass": "^1.50.0",
 		"shelljs": "^0.8.5",
 		"sirv-cli": "^2.0.2",
 		"svelte": "^3.46.6",
-		"svelte-check": "^2.4.6",
+		"svelte-check": "^2.5.0",
 		"svelte-preprocess": "^4.10.5",
 		"ts-jest": "^27.1.4",
 		"ts-node": "^10.7.0",
