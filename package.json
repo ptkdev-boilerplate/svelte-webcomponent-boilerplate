@@ -2,7 +2,7 @@
 	"name": "@ptkdev/svelte-webcomponent-boilerplate",
 	"displayName": "Svelte WebComponent Boilerplate",
 	"description": "Create your HTML5 Web Component with Svelte. Made your web components with this user friendly boilerplate",
-	"version": "2.0.2-nightly.47",
+	"version": "2.0.2-nightly.48",
 	"main": "dist/webcomponent.js",
 	"publishConfig": {
 		"access": "public"
@@ -96,14 +96,14 @@
 		"shelljs": "^0.8.5",
 		"sirv-cli": "^2.0.2",
 		"svelte": "^3.47.0",
-		"svelte-check": "^2.5.0",
+		"svelte-check": "^2.6.0",
 		"svelte-preprocess": "^4.10.5",
 		"ts-jest": "^27.1.4",
 		"ts-node": "^10.7.0",
 		"ts-patch": "^2.0.1",
 		"typescript": "^4.6.3",
 		"typescript-transform-paths": "^3.3.1",
-		"yargs": "^17.4.0"
+		"yargs": "^17.4.1"
 	},
 	"keywords": [
 		"ptkdev",
