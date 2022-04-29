@@ -11,11 +11,13 @@
  * @license: MIT License
  *
  */
+import Logger from "@ptkdev/logger";
 import * as shell from "shelljs";
-import { pkgConf } from "yargs";
 const replace = require("replace-in-file");
 const setup = require("../setup.json");
 const pkg = require("../package.json");
+
+const logger = new Logger();
 
 (async () => {
 	try {

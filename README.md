@@ -309,7 +309,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- all-shields/projects-badges3:START -->
 
-[![](https://img.shields.io/badge/%F0%9F%9A%A7%20WebComponents-My%20Collection-e74c3c.svg?style=flat&logo=)](https://github.com/ptkdev-components) [![](https://img.shields.io/badge/%F0%9F%94%96%20Bot-AboutMeInfo-1FA0F2.svg?style=flat&logo=)](https://github.com/ptkdev/aboutmeinfo-telegram-bot) [![](https://img.shields.io/badge/%E2%8F%B1%20Bot-QuizQuickAnswer-FEC91A.svg?style=flat&logo=)](https://github.com/ptkdev/quizquickanswer-telegram-game-bot) [![](https://img.shields.io/badge/%F0%9F%93%9A%20Bot-GameBookChat-34495e.svg?style=flat&logo=)](https://t.me/gamebookchatbot) [![](https://img.shields.io/badge/%F0%9F%8E%A8%20Themes-VSCode-f1c40f.svg?style=flat&logo=)](https://github.com/ptkdev/vscode-theme-dark-blood) [![](https://img.shields.io/badge/%F0%9F%97%84%20Sourcesense-Joyce-CECBE6.svg?style=flat&logo=)](https://github.com/sourcesense/joyce)
+[![](https://img.shields.io/badge/%F0%9F%9A%A7%20WebComponents-My%20Collection-e74c3c.svg?style=flat&logo=)](https://github.com/ptkdev-components) [![](https://img.shields.io/badge/%F0%9F%94%96%20Bot-AboutMeInfo-1FA0F2.svg?style=flat&logo=)](https://github.com/ptkdev/aboutmeinfo-telegram-bot) [![](https://img.shields.io/badge/%E2%8F%B1%20Bot-QuizQuickAnswer-FEC91A.svg?style=flat&logo=)](https://github.com/ptkdev/quizquickanswer-telegram-game-bot) [![](https://img.shields.io/badge/%F0%9F%93%9A%20Bot-GameBookChat-34495e.svg?style=flat&logo=)](https://t.me/gamebookchatbot) [![](https://img.shields.io/badge/%F0%9F%8E%A8%20Themes-VSCode-f1c40f.svg?style=flat&logo=)](https://github.com/ptkdev/vscode-theme-dark-blood)
 
 <!-- all-shields/projects-badges3:END -->
 
