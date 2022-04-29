@@ -29,7 +29,7 @@
 		"start": "npm run git-hash && sirv dist",
 		"dev": "npm run git-hash && ts-node scripts/configs.ts && ts-node scripts/rmdist.ts && ts-node scripts/debug.ts --enable && rollup -c -w",
 		"build": "ts-node scripts/configs.ts && ts-node scripts/rmdist.ts && ts-node scripts/debug.ts --disable && rollup -c",
-		"release": "npm run git-hash && ts-node scripts/configs.ts && npm run build && ts-node scripts/license.ts && ts-node scripts/wordpress.ts && tsc --declaration --emitDeclarationOnly",
+		"release": "npm run build && ts-node scripts/license.ts && ts-node scripts/wordpress.ts && tsc --declaration --emitDeclarationOnly",
 		"test": "jest app",
 		"docs": "git submodule update --recursive && markserv ./README.md",
 		"lint": "npm run lint-prettify && eslint . --cache --ext .ts,.js",

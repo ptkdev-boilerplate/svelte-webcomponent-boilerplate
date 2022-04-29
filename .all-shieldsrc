@@ -259,15 +259,6 @@
 					"style": "flat",
 					"logo": "",
 					"platform": "shields"
-				},
-				{
-					"url": "https://github.com/sourcesense/joyce",
-					"color": "#CECBE6",
-					"label": "🗄 Sourcesense",
-					"message": "Joyce",
-					"style": "flat",
-					"logo": "",
-					"platform": "shields"
 				}
 			]
 		},

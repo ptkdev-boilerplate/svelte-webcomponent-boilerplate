@@ -65,7 +65,7 @@ This is a [github template](https://github.blog/2019-06-06-generate-new-reposito
 -   [✔️] JEST Test preconfigured
 -   [✔️] Full async code
 -   [✔️] Github and Vscode dotfiles preconfigured
--   [✔️] Translations i18n (Help me ❤️)
+-   [✔️] Translations: 🇬🇧 🇮🇹 🇵🇱 (Help me ❤️) i18n (Help me ❤️)
 
 ## 👔 Screenshot
 
@@ -325,4 +325,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 -   Images and logos have **CC BY-NC 4.0 License**
 -   Documentations and Translations have **CC BY 4.0 License**
 
-###### Copyleft (c) 2021 [Patryk Rzucidło](https://ptk.dev) ([@PTKDev](https://twitter.com/ptkdev)) <[support@ptkdev.io](mailto:support@ptkdev.io)>
+###### Copyleft (c) 2022 [Patryk Rzucidło](https://ptk.dev) ([@PTKDev](https://twitter.com/ptkdev)) <[support@ptkdev.io](mailto:support@ptkdev.io)>
